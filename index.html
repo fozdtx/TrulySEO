@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>trulySEO</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>trulySEO</h1>
+    <form id="seoForm">
+      <label for="siteTitle">Website Title:</label>
+      <input type="text" id="siteTitle" required>
+      <label for="siteDescription">Website Description:</label>
+      <textarea id="siteDescription" rows="4" required></textarea>
+      <label for="author">Author:</label>
+      <input type="text" id="author">
+      <label for="keywords">Keywords (comma separated):</label>
+      <input type="text" id="keywords">
+      <label for="language">Language:</label>
+      <input type="text" id="language">
+      <label for="robots">Robots:</label>
+      <input type="text" id="robots" placeholder="index, follow">
+      <label for="revisitAfter">Revisit After (days):</label>
+      <input type="text" id="revisitAfter">
+      <label for="sitemap">Sitemap URL:</label>
+      <input type="text" id="sitemap">
+      <label for="geoRegion">Geographic Region:</label>
+      <input type="text" id="geoRegion">
+      <label for="geoPosition">Geographic Position:</label>
+      <input type="text" id="geoPosition">
+      <label for="geoPlacename">Geographic Placename:</label>
+      <input type="text" id="geoPlacename">
+      <label for="geoICBM">Geographic ICBM:</label>
+      <input type="text" id="geoICBM">
+      <label for="rating">Rating:</label>
+      <input type="text" id="rating">
+      <label for="distribution">Distribution:</label>
+      <input type="text" id="distribution">
+      <label for="category">Category:</label>
+      <input type="text" id="category">
+      <label for="audience">Audience:</label>
+      <input type="text" id="audience">
+      <label for="targetCountry">Target Country:</label>
+      <input type="text" id="targetCountry">
+      <label for="ogTitle">Open Graph Title:</label>
+      <input type="text" id="ogTitle">
+      <label for="ogDescription">Open Graph Description:</label>
+      <textarea id="ogDescription" rows="4"></textarea>
+      <label for="ogImage">Open Graph Image URL:</label>
+      <input type="text" id="ogImage">
+      <label for="twitterTitle">Twitter Title:</label>
+      <input type="text" id="twitterTitle">
+      <label for="twitterDescription">Twitter Description:</label>
+      <textarea id="twitterDescription" rows="4"></textarea>
+      <label for="twitterImage">Twitter Image URL:</label>
+      <input type="text" id="twitterImage">
+      <button type="submit">Generate SEO</button>
+    </form>
+    <div id="seoOutput"></div>
+    <textarea id="metaTagsTextarea" rows="10" cols="50" readonly></textarea>
+    <button id="copyMetaTagsButton">Copy Meta Tags</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
